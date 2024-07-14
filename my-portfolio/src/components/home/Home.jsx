@@ -1,7 +1,11 @@
 import "./home.css"
-export const Home = () => {
+const Home = () => {
   return (
-    <div>Home</div>
+    <section className = "home-container" id="home">
+      <div className="intro">
+        <img src ="" alt="" className = "home__img"></img>
+      </div>
+    </section>
   )
 }
 export default Home;
